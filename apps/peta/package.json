@@ -1,12 +1,14 @@
 {
-  "name": "web",
+  "name": "peta",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@/bungas": "*",
@@ -28,13 +30,28 @@
     "tailwindcss": "3.4.3"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.2",
+    "@storybook/addon-essentials": "^8.4.4",
+    "@storybook/addon-interactions": "^8.4.4",
+    "@storybook/addon-onboarding": "^8.4.4",
+    "@storybook/blocks": "^8.4.4",
+    "@storybook/nextjs": "^8.4.4",
+    "@storybook/react": "^8.4.4",
+    "@storybook/test": "^8.4.4",
     "@types/node": "^20.10.6",
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "babel-plugin-react-native-web": "^0.19.10",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.0.4",
+    "eslint-plugin-storybook": "^0.11.1",
     "jscodeshift": "0.15.2",
+    "storybook": "^8.4.4",
     "typescript": "^5.3.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
   }
 }

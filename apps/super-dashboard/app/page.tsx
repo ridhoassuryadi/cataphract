@@ -1,7 +1,7 @@
 "use client";
-import { Button, ButtonText } from "@/components/ui/button";
-import { VStack } from "@/components/ui/vstack";
-import { Heading } from "@/components/ui/heading";
+import { Button, ButtonText } from "@/bungas/ui/button";
+import { VStack } from "@/bungas/ui/vstack";
+import { Heading } from "@/bungas/ui/heading";
 import { useRouter } from "next/navigation";
 const Page = () => {
   const router = useRouter();
