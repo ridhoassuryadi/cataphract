@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, ButtonText } from "@/components/ui/button";
+import { Button, ButtonText } from "@/bungas/ui/button";
 import { router } from "expo-router";
-import { SafeAreaView } from "@/components/ui/safe-area-view";
-import { VStack } from "@/components/ui/vstack";
+import { SafeAreaView } from "@/bungas/ui/safe-area-view";
+import { VStack } from "@/bungas/ui/vstack";
 const index = () => {
   return (
     <SafeAreaView className="md:flex flex-col items-center justify-center md:w-full h-full">

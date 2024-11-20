@@ -3,20 +3,20 @@
 import { useState } from 'react'
 import {
   Icon
-} from "@/components/ui/icon";
+} from "@/bungas/ui/icon";
 
-import { ScrollView } from "@/components/ui/scroll-view";
-import { Pressable } from "@/components/ui/pressable";
-import { Heading } from "@/components/ui/heading";
-import { Box } from "@/components/ui/box";
-import { Button, ButtonText } from "@/components/ui/button";
-import { HStack } from "@/components/ui/hstack";
-import { VStack } from "@/components/ui/vstack";
-import { Text } from "@/components/ui/text";
-import { Image } from "@/components/ui/image";
-import { Input, InputField } from "@/components/ui/input";
-import { Badge, BadgeText } from "@/components/ui/badge";
-import { Divider } from "@/components/ui/divider";
+import { ScrollView } from "@/bungas/ui/scroll-view";
+import { Pressable } from "@/bungas/ui/pressable";
+import { Heading } from "@/bungas/ui/heading";
+import { Box } from "@/bungas/ui/box";
+import { Button, ButtonText } from "@/bungas/ui/button";
+import { HStack } from "@/bungas/ui/hstack";
+import { VStack } from "@/bungas/ui/vstack";
+import { Text } from "@/bungas/ui/text";
+import { Image } from "@/bungas/ui/image";
+import { Input, InputField } from "@/bungas/ui/input";
+import { Badge, BadgeText } from "@/bungas/ui/badge";
+import { Divider } from "@/bungas/ui/divider";
 
 
 import { Search, ShoppingCart, User, History, Settings, Plus, Minus } from 'lucide-react'
