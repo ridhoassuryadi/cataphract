@@ -1,35 +1,35 @@
-import { Box } from "@/components/ui/box";
-import { HStack } from "@/components/ui/hstack";
+import { Box } from "@/bungas/ui/box";
+import { HStack } from "@/bungas/ui/hstack";
 import {
   ChevronLeftIcon,
   DownloadIcon,
   Icon,
   MenuIcon,
   SearchIcon,
-} from "@/components/ui/icon";
+} from "@/bungas/ui/icon";
 import { isWeb } from "@gluestack-ui/nativewind-utils/IsWeb";
-import { Text } from "@/components/ui/text";
-import { VStack } from "@/components/ui/vstack";
-import { Pressable } from "@/components/ui/pressable";
+import { Text } from "@/bungas/ui/text";
+import { VStack } from "@/bungas/ui/vstack";
+import { Pressable } from "@/bungas/ui/pressable";
 import type { LucideIcon } from "lucide-react-native";
 import { FeedIcon } from "./assets/icons/feed";
 import { GlobeIcon } from "./assets/icons/globe";
-import { Button, ButtonIcon, ButtonText } from "@/components/ui/button";
+import { Button, ButtonIcon, ButtonText } from "@/bungas/ui/button";
 import { useState } from "react";
-import { Heading } from "@/components/ui/heading";
+import { Heading } from "@/bungas/ui/heading";
 import Image from "@unitools/image";
-import { ScrollView } from "@/components/ui/scroll-view";
-import { Input, InputField, InputIcon, InputSlot } from "@/components/ui/input";
+import { ScrollView } from "@/bungas/ui/scroll-view";
+import { Input, InputField, InputIcon, InputSlot } from "@/bungas/ui/input";
 import {
   Avatar,
   AvatarFallbackText,
   AvatarImage,
-} from "@/components/ui/avatar";
+} from "@/bungas/ui/avatar";
 import useRouter from "@unitools/router";
 import { HomeIcon } from "./assets/icons/home";
 import { HeartIcon } from "./assets/icons/heart";
 import { ProfileIcon } from "./assets/icons/profile";
-import { SafeAreaView } from "@/components/ui/safe-area-view";
+import { SafeAreaView } from "@/bungas/ui/safe-area-view";
 import { cn } from "@gluestack-ui/nativewind-utils/cn";
 import { Platform } from "react-native";
 type MobileHeaderProps = {

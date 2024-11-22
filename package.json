@@ -11,7 +11,9 @@
     "run:klolatoko": "cd apps/expo-app && yarn start",
     "run:super-dashboard": "cd apps/next && yarn dev",
     "run:klolakos": "cd apps/expo-app && yarn start",
-    "run:super-dashboard": "cd apps/next && yarn dev",
+    "run:klolaform": "cd apps/next && yarn dev",
+    "run:klolarental": "cd apps/next && yarn dev",
+    "run:storybook": "cd apps/next && yarn dev",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore",
     "postinstall": "patch-package",
     "eject": "npx @gluestack-ui/universal-cli@latest eject"

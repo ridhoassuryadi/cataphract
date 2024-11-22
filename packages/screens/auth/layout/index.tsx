@@ -1,8 +1,8 @@
-import { HStack } from "@/components/ui/hstack";
-import { VStack } from "@/components/ui/vstack";
-import { SafeAreaView } from "@/components/ui/safe-area-view";
-import { ScrollView } from "@/components/ui/scroll-view";
-import { Image } from "@/components/ui/image";
+import { HStack } from "@/bungas/ui/hstack";
+import { VStack } from "@/bungas/ui/vstack";
+import { SafeAreaView } from "@/bungas/ui/safe-area-view";
+import { ScrollView } from "@/bungas/ui/scroll-view";
+import { Image } from "@/bungas/ui/image";
 
 type AuthLayoutProps = {
   children: React.ReactNode;

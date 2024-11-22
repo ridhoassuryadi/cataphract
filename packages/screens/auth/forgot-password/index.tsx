@@ -1,7 +1,7 @@
-import { Toast, ToastTitle, useToast } from "@/components/ui/toast";
-import { VStack } from "@/components/ui/vstack";
-import { Heading } from "@/components/ui/heading";
-import { Text } from "@/components/ui/text";
+import { Toast, ToastTitle, useToast } from "@/bungas/ui/toast";
+import { VStack } from "@/bungas/ui/vstack";
+import { Heading } from "@/bungas/ui/heading";
+import { Text } from "@/bungas/ui/text";
 import {
   FormControl,
   FormControlError,
@@ -9,17 +9,17 @@ import {
   FormControlErrorText,
   FormControlLabel,
   FormControlLabelText,
-} from "@/components/ui/form-control";
-import { Input, InputField } from "@/components/ui/input";
-import { ArrowLeftIcon, Icon } from "@/components/ui/icon";
-import { Button, ButtonText } from "@/components/ui/button";
+} from "@/bungas/ui/form-control";
+import { Input, InputField } from "@/bungas/ui/input";
+import { ArrowLeftIcon, Icon } from "@/bungas/ui/icon";
+import { Button, ButtonText } from "@/bungas/ui/button";
 import { Keyboard } from "react-native";
 import { useForm, Controller } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AlertTriangle } from "lucide-react-native";
 import useRouter from "@unitools/router";
-import { Pressable } from "@/components/ui/pressable";
+import { Pressable } from "@/bungas/ui/pressable";
 import { AuthLayout } from "../layout";
 
 const forgotPasswordSchema = z.object({
