@@ -1,30 +1,30 @@
-import { Box } from "@/components/ui/box";
-import { HStack } from "@/components/ui/hstack";
+import { Box } from "@/bungas/ui/box";
+import { HStack } from "@/bungas/ui/hstack";
 import { isWeb } from "@gluestack-ui/nativewind-utils/IsWeb";
-import { ChevronLeftIcon, Icon, MenuIcon } from "@/components/ui/icon";
-import { Text } from "@/components/ui/text";
-import { VStack } from "@/components/ui/vstack";
-import { Pressable } from "@/components/ui/pressable";
+import { ChevronLeftIcon, Icon, MenuIcon } from "@/bungas/ui/icon";
+import { Text } from "@/bungas/ui/text";
+import { VStack } from "@/bungas/ui/vstack";
+import { Pressable } from "@/bungas/ui/pressable";
 import type { LucideIcon } from "lucide-react-native";
 import { InboxIcon } from "./assets/icons/inbox";
 import { GlobeIcon } from "./assets/icons/globe";
-import { Button, ButtonText } from "@/components/ui/button";
+import { Button, ButtonText } from "@/bungas/ui/button";
 import { useEffect, useState } from "react";
-import { Heading } from "@/components/ui/heading";
-import { ScrollView } from "@/components/ui/scroll-view";
-import { Divider } from "@/components/ui/divider";
-import { Grid, GridItem } from "@/components/ui/grid";
+import { Heading } from "@/bungas/ui/heading";
+import { ScrollView } from "@/bungas/ui/scroll-view";
+import { Divider } from "@/bungas/ui/divider";
+import { Grid, GridItem } from "@/bungas/ui/grid";
 import {
   Avatar,
   AvatarFallbackText,
   AvatarImage,
-} from "@/components/ui/avatar";
+} from "@/bungas/ui/avatar";
 import useRouter from "@unitools/router";
 import { HomeIcon } from "./assets/icons/home";
 import { HeartIcon } from "./assets/icons/heart";
 import { ProfileIcon } from "./assets/icons/profile";
 import { CalendarIcon } from "./assets/icons/calendar";
-import { SafeAreaView } from "@/components/ui/safe-area-view";
+import { SafeAreaView } from "@/bungas/ui/safe-area-view";
 import { cn } from "@gluestack-ui/nativewind-utils/cn";
 import { Platform } from "react-native";
 import Image from "@unitools/image"

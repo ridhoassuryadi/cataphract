@@ -1,21 +1,21 @@
-import { Toast, ToastTitle, useToast } from "@/components/ui/toast";
-import { HStack } from "@/components/ui/hstack";
-import { VStack } from "@/components/ui/vstack";
-import { Heading } from "@/components/ui/heading";
-import { Text } from "@/components/ui/text";
-import { SafeAreaView } from "@/components/ui/safe-area-view";
-import { FormControl, FormControlError, FormControlErrorIcon, FormControlErrorText, FormControlLabel, FormControlLabelText, } from "@/components/ui/form-control";
-import { Input, InputField } from "@/components/ui/input";
-import { ArrowLeftIcon, Icon } from "@/components/ui/icon";
-import { Button, ButtonText } from "@/components/ui/button";
+import { Toast, ToastTitle, useToast } from "@/bungas/ui/toast";
+import { HStack } from "@/bungas/ui/hstack";
+import { VStack } from "@/bungas/ui/vstack";
+import { Heading } from "@/bungas/ui/heading";
+import { Text } from "@/bungas/ui/text";
+import { SafeAreaView } from "@/bungas/ui/safe-area-view";
+import { FormControl, FormControlError, FormControlErrorIcon, FormControlErrorText, FormControlLabel, FormControlLabelText, } from "@/bungas/ui/form-control";
+import { Input, InputField } from "@/bungas/ui/input";
+import { ArrowLeftIcon, Icon } from "@/bungas/ui/icon";
+import { Button, ButtonText } from "@/bungas/ui/button";
 import { Keyboard } from "react-native";
 import { useForm, Controller } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AlertTriangle } from "lucide-react-native";
 import useRouter from "@unitools/router";
-import { Pressable } from "@/components/ui/pressable";
-import { Image } from "@/components/ui/image";
+import { Pressable } from "@/bungas/ui/pressable";
+import { Image } from "@/bungas/ui/image";
 const forgotPasswordSchema = z.object({
     email: z.string().min(1, "Email is required").email(),
 });

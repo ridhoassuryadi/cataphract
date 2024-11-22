@@ -15,7 +15,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@/components": "*",
+    "@/bungas": "*",
     "@hookform/resolvers": "^3.3.4",
     "@unitools/image": "^0.0.4",
     "@unitools/link": "^0.0.3",
